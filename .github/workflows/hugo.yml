@@ -61,10 +61,14 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
+#           PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+#           EXTERNAL_REPOSITORY: fangw1/fangw1.github.io
+#           PUBLISH_BRANCH: main
+#           PUBLISH_DIR: ./public
+#           commit_message: ${{ github.event.head_commit.message }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: fangw1/fangw1.github.io # Pages 远程仓库
           publish_dir: ./public
-        #   keep_files: true
           publish_branch: main
           cname: blog.fangw.online
 
