@@ -1,5 +1,5 @@
 ---
-title: "Tech"
+title: “auto-cancel"
 date: 2022-05-05T00:17:58+08:00
 lastmod: 2022-05-05T00:17:58+08:00
 author: ["Patrick"]
@@ -14,7 +14,7 @@ weight:
 slug: ""
 draft: false # 是否为草稿
 comments: true
-reward: true # 打赏
+reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录
