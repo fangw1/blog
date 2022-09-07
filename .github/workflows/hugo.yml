@@ -61,7 +61,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: fangw1/fangw1.github.io # Pages 远程仓库
           publish_dir: ./public
         #   keep_files: true
