@@ -51,10 +51,9 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-#          echo "${{ steps.pages.outputs.base_path }}/" && \
           hugo \
             --minify \
-            --baseURL https://www.fangw.online/
+            --baseURL "https://www.fangw.online/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
