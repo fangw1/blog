@@ -35,7 +35,7 @@ showbreadcrumbs: false
 |        |                                   |
 | ------ | --------------------------------- |
 | 名称： | Patrick's Blog                       |
-| 网址： | http://blog.fangw.online           |
+| 网址： | http://www.fangw.online           |
 | 图标： | img/Q.png |
 | 描述： | 一个记录技术、阅读、生活的博客    |
 

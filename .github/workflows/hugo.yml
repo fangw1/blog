@@ -70,6 +70,6 @@ jobs:
           external_repository: fangw1/fangw1.github.io # Pages 远程仓库
           publish_dir: ./public
           publish_branch: main
-          cname: blog.fangw.online
+          cname: www.fangw.online
 
 
