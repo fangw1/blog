@@ -1,5 +1,5 @@
 ---
-title: "Distributed Lock"
+title: "分布式锁"
 date: 2022-09-06T15:16:42+08:00
 lastmod: 2022-09-06T15:16:42+08:00
 author: ["Patick"]
