@@ -27,7 +27,7 @@ cover:
     alt: ""
     relative: false
 ---
-# Zet操作
+# Zset操作
 
 ```bash
 
